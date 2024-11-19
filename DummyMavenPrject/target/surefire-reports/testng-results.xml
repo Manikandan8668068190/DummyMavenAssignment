@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Audi Test Executed]]>
+    </line>
+    <line>
+      <![CDATA[Ferrari Test Executed]]>
+    </line>
+    <line>
+      <![CDATA[Lamborgini Test Executed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-19T11:48:47 IST" name="Surefire suite" finished-at="2024-11-19T11:48:47 IST" duration-ms="65">
+    <groups>
+    </groups>
+    <test started-at="2024-11-19T11:48:47 IST" name="Surefire test" finished-at="2024-11-19T11:48:47 IST" duration-ms="65">
+      <class name="Cars.Lamborgini_Test">
+        <test-method signature="launch()[pri:0, instance:Cars.Lamborgini_Test@27ff5d15]" started-at="2024-11-19T11:48:47 IST" name="launch" finished-at="2024-11-19T11:48:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Lamborgini Test Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- Cars.Lamborgini_Test -->
+      <class name="Cars.Ferrari_Test">
+        <test-method signature="launch()[pri:0, instance:Cars.Ferrari_Test@1613674b]" started-at="2024-11-19T11:48:47 IST" name="launch" finished-at="2024-11-19T11:48:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Ferrari Test Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- Cars.Ferrari_Test -->
+      <class name="Cars.Audi_Test">
+        <test-method signature="Launch()[pri:0, instance:Cars.Audi_Test@29e495ff]" started-at="2024-11-19T11:48:47 IST" name="Launch" finished-at="2024-11-19T11:48:47 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Audi Test Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+      </class> <!-- Cars.Audi_Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
